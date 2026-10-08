@@ -1,0 +1,27 @@
+name: Latest writing
+
+# Keeps the "Latest writing" list in README.md in step with tiagoperes.com/feed.xml.
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node .github/scripts/latest-writing.mjs
+      - name: Commit when the list changed
+        run: |
+          if git diff --quiet README.md; then exit 0; fi
+          git config user.name "Tiago Peres"
+          git config user.email "tiagomartinsperes@gmail.com"
+          git commit -am "Latest writing"
+          git push
