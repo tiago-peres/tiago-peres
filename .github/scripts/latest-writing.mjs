@@ -20,7 +20,15 @@ const decode = (s) =>
     .replace(/&amp;/g, "&")
     .trim();
 
-const res = await fetch(FEED);
+// A browser's request headers: Bot Fight Mode on tiagoperes.com answers 403 to a
+// bare "node" client coming from a data centre such as GitHub's runners.
+const res = await fetch(FEED, {
+  headers: {
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36",
+    accept: "application/rss+xml, application/xml;q=0.9, */*;q=0.8",
+    "accept-language": "en",
+  },
+});
 if (!res.ok) throw new Error(`${FEED} answered ${res.status}`);
 const xml = await res.text();
 
