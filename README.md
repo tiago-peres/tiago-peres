@@ -2,7 +2,7 @@
 
 ### Hi, I'm Tiago Peres
 
-I'm Tiago Martins Peres, an AI engineer and full-stack developer in Peniche, Portugal. I help teams and founders take RAG, agents and LLM features from prototype to production, with the evals, monitoring and handover that production needs. I've been building software for more than ten years, for companies like Nestlé, PwC and EDP and for small teams starting from a blank page.
+I'm Tiago Martins Peres, an AI engineer and full-stack developer in Peniche, Portugal. I help teams and founders take RAG, agents and LLM features from prototype to production, with the evals, monitoring and handover that production needs. I've been building software for more than ten years, for companies like Nestlé, PwC and EDP and for small teams starting from a blank page, and I work remotely with clients in Europe, the United States and Qatar.
 
 Have an AI idea you want to get right? Tell me about it on **[tiagoperes.com](https://tiagoperes.com)**.
 
