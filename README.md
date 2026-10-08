@@ -29,7 +29,7 @@ All of it is on [tiagoperes.com/blog](https://tiagoperes.com/blog/).
 
 ### Background
 
-- Master's in Web Computing Technologies and Systems, Universidade Aberta (2020), with a thesis on immersive visualization of big data on mobile devices
+- Master's Degree in Web Technologies and Systems, Universidade Aberta (2020), with a [thesis on immersive visualization of big data on mobile devices](https://hdl.handle.net/10400.2/9872)
 - One of the editors of the iLRN 2020 conference proceedings, published by IEEE
 - Answering on [Stack Overflow](https://stackoverflow.com/users/5675325/tiago-peres) since 2015
 - I work through my own company, Tiago Martins Peres, Unipessoal Lda
