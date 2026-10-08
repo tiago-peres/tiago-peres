@@ -15,7 +15,7 @@ Have an AI idea you want to get right? Tell me about it on **[tiagoperes.com](ht
 
 ### Latest writing
 
-I write about building with AI and what it changes for the people doing the work, in six languages and narrated in my own voice.
+I write about building with AI and what it changes for the people doing the work, in six languages, each piece read aloud by [a clone of my voice](https://tiagoperes.com/blog/cloning-my-voice-to-read-this-blog/).
 
 <!-- LATEST-WRITING:START -->
 - [Jev Answers in Probabilities. The Question Is Still Yours.](https://tiagoperes.com/blog/jev-answers-in-probabilities/) (22 Sep 2026)
